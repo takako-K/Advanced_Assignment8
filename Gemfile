@@ -71,3 +71,8 @@ gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13'
 
 gem "jquery-rails"
+
+# ActionMailer でメール送信処理
+group :development do
+  gem "letter_opener"
+end
